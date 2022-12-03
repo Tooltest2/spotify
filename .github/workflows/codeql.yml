@@ -45,7 +45,8 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
-        queries: security-and-quality, codeql-suites/java-lgtm-full.qls
+        queries: security-and-quality, github/codeql[/codeql/java/ql/src/codeql-suites/java-lgtm.qls]@ref
+                
         languages: ${{ matrix.language }}
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
