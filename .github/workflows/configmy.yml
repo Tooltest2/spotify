@@ -10,7 +10,7 @@ queries:
   - name: Sec and Qual
     uses: security-and-quality
   - name: test
-    uses: codeql/java/ql/src/experimental/Security/CWE 
+    uses: github/java/ql/src/experimental/Security/CWE@main
 
 
     
