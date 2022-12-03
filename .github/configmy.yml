@@ -1,0 +1,21 @@
+name: "My CodeQL config"
+
+disable-default-queries: true
+
+languages: java
+
+queries:
+  - name: Extended Security
+    uses: security-extended
+  - name: Sec and Qual
+    uses: security-and-quality
+  - name: 
+    uses: octo-org/python-qlpack/show_ifs.ql@main
+  - name: Use a query suite file (run queries from a query suite in this repo)
+    uses: ./codeql-qlpacks/complex-python-qlpack/rootAndBar.qls
+  - name: Experimental
+    
+packs:
+  - codeql/java-queries
+  -codeql/java-all
+
