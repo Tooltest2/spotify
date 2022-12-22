@@ -9,8 +9,6 @@ queries:
     uses: security-extended
   - name: Sec and Qual
     uses: security-and-quality
-  - name: test
-    uses: java/constant-loop-condition
 
 
 
