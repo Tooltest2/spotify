@@ -9,6 +9,10 @@ queries:
     uses: security-extended
   - name: Sec and Qual
     uses: security-and-quality
+    
+query-filters:
+  - include: 
+    id: java/deprecated-call
 
 
 
