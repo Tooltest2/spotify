@@ -12,7 +12,7 @@ queries:
     
 query-filters:
   - include: 
-    id: java/constant-loop-condition
+    id: java/unreachable-exit-in-loop
 
 
 
