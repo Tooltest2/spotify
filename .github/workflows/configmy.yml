@@ -12,7 +12,7 @@ queries:
     
 packs:
   - codeql/java-queries
-  - codeql/java-all
+
 
 
 
