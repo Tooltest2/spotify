@@ -10,6 +10,11 @@ queries:
     
 packs:
   - codeql/java-queries
+query-filters:
+  - include:
+      problem-severity:
+        -warning
+        -recommendation
 
 
 
