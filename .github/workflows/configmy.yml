@@ -10,8 +10,8 @@ queries:
   - name: Sec and Qual
     uses: security-and-quality
     
-query-filters:
-  - include: java/unreachable-exit-in-loop
+packs:
+  - codeql/java-queries
 
 
 
