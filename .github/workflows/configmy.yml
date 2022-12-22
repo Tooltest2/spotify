@@ -9,6 +9,9 @@ queries:
     uses: security-extended
   - name: Sec and Qual
     uses: security-and-quality
+packs: 
+  - name: test
+    uses: codeql/java-all
 
 
 
