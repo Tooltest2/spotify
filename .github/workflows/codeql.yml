@@ -35,6 +35,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         config-file: ./.github/workflows/configmy.yml
+        queries: +security-and-quality
         
     
         # If you wish to specify custom queries, you can do so here or in a config file.
