@@ -12,7 +12,7 @@ packs:
   - codeql/java-queries
 query-filters:
   - include:
-      problem-severity:
+      problem.severity:
         -warning
         -recommendation
 
