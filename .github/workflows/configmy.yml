@@ -12,7 +12,7 @@ queries:
     
 query-filters:
   - include: 
-    id: java/deprecated-call
+    id: java/constant-loop-condition
 
 
 
