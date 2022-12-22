@@ -5,8 +5,6 @@ disable-default-queries: false
 languages: java
 
 queries:
-  - name: Extended Security
-    uses: security-extended
   - name: Sec and Qual
     uses: security-and-quality
     
