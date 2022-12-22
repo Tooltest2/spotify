@@ -34,7 +34,7 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
-        queries: +java/deprecated-call,github/codeql[/java/ql/src/Security/CWE/CWE-835/InfiniteLoop.ql]@main	
+        queries: +java/deprecated-call,github/codeql[./java/ql/src/Security/CWE/CWE-835/InfiniteLoop.ql]@main	
         
     
         # If you wish to specify custom queries, you can do so here or in a config file.
